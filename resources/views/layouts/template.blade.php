@@ -116,12 +116,12 @@
 								<ul class="list-main">
 									<li><i class="ti-location-pin"></i> Store location</li>
 									<li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
-                                    {{-- @if (Auth::check())
+                                    @if (Auth::check())
 									<li><i class="ti-user"></i> <a href="#">{{Auth::user()->name}}</a></li>
 									    <li><i class="ti-power-off"></i><a href="{{ route('logout') }}">Log Out</a></li>
                                     @else
 									    <li><i class="ti-power-off"></i><a href="/login">Login</a></li>
-                                    @endif --}}
+                                    @endif
 								</ul>
 							</div>
 							<!-- End Top Right -->
