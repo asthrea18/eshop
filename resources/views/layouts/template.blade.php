@@ -227,7 +227,7 @@
 									<nav class="navbar navbar-expand-lg">
 										<div class="navbar-collapse">
 											<div class="nav-inner">
-												<ul class="nav main-menu menu navbar-nav">
+												{{-- <ul class="nav main-menu menu navbar-nav">
 													<li class="active"><a href="#">Home<i class="ti-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="index-2.html">Home Ecommerce V1</a></li>
@@ -265,9 +265,9 @@
 														</ul>
 													</li>
 													<li><a href="contact.html">Contact Us</a></li>
-												</ul>
+												</ul> --}}
 
-                                                    {{-- {!!menu('main','layouts.menus.home')!!} --}}
+                                                    {!!menu('main','layouts.menus.home')!!}
 
 
 											</div>
